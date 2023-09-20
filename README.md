@@ -146,6 +146,8 @@ Las columnas que tienen su valor directamente dependiente del radio son:
 - smoothness_mean
 - compactness_mean
 
+En base al problema de multicolinealidad que presenta, con el objetivo de eliminar variables altamente correlacionadas se procede a eliminar aquellas variables sobre 0.9.Logrando el siguiente mapa de correlación:
+
 ![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/a9331c85-eff4-46cb-b060-dc3991624cba)
 
 
