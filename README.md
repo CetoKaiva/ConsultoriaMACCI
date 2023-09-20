@@ -236,7 +236,7 @@ pip install -r requirements.txt
 
 Para ejecutar las predicciones, necesitas descargar la base de datos `data_breast_cancer.csv` e incorporarla en la carpeta `data/` de este proyecto. Puedes descargarla desde el siguiente enlace:
 
-[Descargar data_breast_cancer.csv](enlace_a_la_descarga)
+https://github.com/CetoKaiva/ConsultoriaMACCI/blob/656bf0d4e2742dd8dad3146bab87edf346dfc65c/data_breast_cancer.csv
 
 
 ### 4. Ejecutar el codigo
