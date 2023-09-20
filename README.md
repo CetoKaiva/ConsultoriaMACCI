@@ -13,12 +13,19 @@ Cada muestra posee una identificación (“ID”), el diagnóstico (“diagnosis
 2.Texture: desviación estándar de las intensidades en escala de grises.
 
 3.Perimeter: contorno de biopsia.
+
 4.Area: superficie de la biopsia.
+
 5.Smoothness: variación local de largo de los radios.
+
 6.Compactness:  / área 
+
 7.Concavity: severidad de secciones cóncavas en la delineación.
+
 8.Concave points: número de secciones cóncavas en la delineación.
+
 9.Symmetry: simetría de la biopsia. 
+
 10.Fractal dimension: "Paradoja de línea de Costa" 
 
 PARTE 1: ANÁLISIS EXPLORATORIO
