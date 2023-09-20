@@ -45,7 +45,6 @@ B.	Propuesta de Modelo
   - Regresión Logística
   - SVM
   - Random Forest
-  - 
 C.	Elección y Entrenamiento del Modelo
 
 CONCLUSIONES
