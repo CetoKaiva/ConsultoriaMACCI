@@ -221,7 +221,7 @@ Se entrega con éxito el modelo de predicción de resultados de biopsias para de
 
 Primero, clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-```bash
+" ```bash
 git clone https://github.com/TuUsuario/ConsultoriaMACCI.git
 
 ## 2.Instalación de dependencias 
