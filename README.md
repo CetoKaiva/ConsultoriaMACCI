@@ -137,3 +137,15 @@ Para poder ilustrar la correlación se presenta el siguiente mapa de calor, dond
 
 ![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/d440752b-263b-4d28-a703-b8c57e62f77f)
 
+
+Como resultado, la matriz de correlación muestra las mayores correlaciones con colores más oscuros. 
+Como resultado del análisis, se pueden observar fuera de esta diagonal principal también fuertes correlaciones cercanas a 1, sin embargo, estas se vienen refiriendo a las columnas de perímetro, área y radio, por lo que estas correlaciones no explicarían el modelo en sí para determinar si es benigno o no, más bien serían valores que son directamente dependientes entre sí, para determinar estas características en su cálculo matemático y presentan multicolinealidad , pudiendo interferir en el pronóstico del modelo a investigar. 
+Las columnas que tienen su valor directamente dependiente del radio son: 
+- Perimeter_mean 
+- area_mean
+- smoothness_mean
+- compactness_mean
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/a9331c85-eff4-46cb-b060-dc3991624cba)
+
+
