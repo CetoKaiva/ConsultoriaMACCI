@@ -217,17 +217,14 @@ Se entrega con éxito el modelo de predicción de resultados de biopsias para de
 
 
 
-## Instrucciones de Uso
-
-A continuación, se describen los pasos para utilizar el proyecto de detección de cáncer de mama.
-
-### 1. Clonar el Repositorio
+## 1. Clonar el Repositorio
 
 Primero, clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-```bash git clone https://github.com/TuUsuario/ConsultoriaMACCI.git
+```bash
+git clone https://github.com/TuUsuario/ConsultoriaMACCI.git
 
-### 2.Instalación de dependencias 
+## 2.Instalación de dependencias 
 
 pip install -r requirements.txt
 
