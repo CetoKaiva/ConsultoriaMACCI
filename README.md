@@ -215,3 +215,21 @@ Teniendo en cuenta los 3 modelos que se evaluaron y los resultados que se identi
 
 Se entrega con éxito el modelo de predicción de resultados de biopsias para determinar si es Benigno o Maligno, dicho modelo inicia con la limpieza de los datos que serán utilizados para luego analizar los datos en búsqueda de patrones que nos entregaran relaciones entre las variables mas relevantes para ser usadas en el entrenamiento de nuestros modelos elegidos, los cuales fueron : Regresión logística , SVM y Random Forest, de los cuales el de regresión logística fue el que obtuvo mejores resultados en 2 de los 3 métricas de rendimiento mas acordes con el caso, las mismas entregan un 97.66 % de exactitud al momento de clasificar un resultado, además de un 95.59% de sensibilidad, lo cual nos da mayor certeza de no evaluar de menara errada a personas que efectivamente tienen un tumor Maligno 
 
+
+
+## Instrucciones de Uso
+
+A continuación, se describen los pasos para utilizar el proyecto de detección de cáncer de mama.
+
+### 1. Clonar el Repositorio
+
+Primero, clona este repositorio en tu máquina local utilizando el siguiente comando:
+
+```bash
+git clone https://github.com/TuUsuario/ConsultoriaMACCI.git
+
+### 2. Instalación de dependencias
+
+pip install -r requirements.txt
+
+
