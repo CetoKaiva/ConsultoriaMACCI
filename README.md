@@ -121,4 +121,9 @@ Realizando un análisis entre el diagnóstico segmentado por resultado (M / B) y
 
 
 
+## C.Análisis Gráfico (Univariables)
+A continuación, se hace una comparativa de histogramas para las diferentes variables divididas por “mean”, “Se” y “worst” para visualizar su distribución y simetría de sus respectivos valores.
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/13e1da9b-f2de-424c-9ef1-cae074ceee00)
+
 
