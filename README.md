@@ -100,7 +100,14 @@ Ya efectuada la limpieza, tras la eliminación de datos que no aportaran al aná
 ![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/55f3ff80-77ed-409a-9479-3f791bb4bfd1)
 
 
+De la tabla anterior, fue posible detectar la siguiente información: 
+- el conteo de valores es el mismo en todas las columnas (569), confirmando la inexistencia de valores nulos. 
+- Por otro lado, se ratificó la cantidad de diagnósticos de cáncer benignos y malignos del total de datos se observa que el 62,7% corresponden a un diagnóstico benigno y 37,3% corresponde a un diagnóstico maligno.
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/82e6c2f4-1240-4067-b099-61b1551428ee)
 
 
+Posteriormente, se analizó una comparación general entre los tumores Benignos y Malignos, agrupando los datos para obtener los promedios de los resultados. Se observa que hay una diferencia identificada por la columna “Delta” y su correspondiente sigo , ya que este hace referencia a la diferencia entre Benigno y Maligno.
 
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/1d7db661-d961-4eb6-95ed-7b9e8d803ba1)
 
