@@ -232,6 +232,13 @@ git clone https://github.com/TuUsuario/ConsultoriaMACCI.git
 
 pip install -r requirements.txt
 
-### . Ejecutar el codigo
+### 3.Datos de Entrada
+
+Para ejecutar las predicciones, necesitas descargar la base de datos `data_breast_cancer.csv` e incorporarla en la carpeta `data/` de este proyecto. Puedes descargarla desde el siguiente enlace:
+
+[Descargar data_breast_cancer.csv](enlace_a_la_descarga)
+
+
+### 4. Ejecutar el codigo
 
 python clasificacion_2.py
