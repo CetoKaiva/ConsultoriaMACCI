@@ -97,8 +97,9 @@ Ya identificadas las variables y sus respectivos datos que no aportarán a la va
 ## B.Descripción de los Datos.
 Ya efectuada la limpieza, tras la eliminación de datos que no aportaran al análisis, se realizó un análisis descriptivo a de las columnas indicando sus valores máximos, mínimos, cuartiles, promedios y desviación estándar.
 
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/55f3ff80-77ed-409a-9479-3f791bb4bfd1)
 
-![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/d7831c4a-2623-4503-a2ea-fe014bdde831)
+
 
 
 
