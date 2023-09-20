@@ -232,4 +232,6 @@ git clone https://github.com/TuUsuario/ConsultoriaMACCI.git
 
 pip install -r requirements.txt
 
+### . Ejecutar el codigo
 
+python clasificacion_2.py
