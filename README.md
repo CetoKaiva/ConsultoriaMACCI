@@ -86,3 +86,13 @@ PARTE 1: ANÁLISIS EXPLORATORIO
 | concave points_worst   | Cuantitativa Continua   |
 | symmetry_worst         | Cuantitativa Continua   |
 | fractal_dimension_worst| Cuantitativa Continua   |
+
+
+
+Como primera inferencia con respecto las variables se decidió omitir la variable “ID”, la cual representa la identificación de la muestra/examen realizado, no siendo una variable continua que pueda explicar el diagnóstico de si un cáncer es benigno o maligno, ya que este es solo un registro sin presentar información descriptiva.
+
+## A.Limpieza Base de Datos
+Ya identificadas las variables y sus respectivos datos que no aportarán a la validación de la hipótesis planteada, se procedió a eliminar dos variables (“ID” y “Unnamed: 32”).
+
+## B.Descripción de los Datos.
+Ya efectuada la limpieza, tras la eliminación de datos que no aportaran al análisis, se realizó un análisis descriptivo a de las columnas indicando sus valores máximos, mínimos, cuartiles, promedios y desviación estándar.
