@@ -52,8 +52,37 @@ C.	Elección y Entrenamiento del Modelo
 
 PARTE 1: ANÁLISIS EXPLORATORIO
 
-| Nombre Columna    | Tipo Variable | 
-|-----------|------|
-| Juan      | 25   |
-| María     | 30   |
-| Pedro     | 28   |
+| Nombre                 | Tipo de Variable        |
+|------------------------|-------------------------|
+| id                     | Cuantitativa Discreta   |
+| diagnosis              | Cualitativa             |
+| radius_mean            | Cuantitativa Continua   |
+| texture_mean           | Cuantitativa Continua   |
+| perimeter_mean         | Cuantitativa Continua   |
+| area_mean              | Cuantitativa Continua   |
+| smoothness_mean        | Cuantitativa Continua   |
+| compactness_mean       | Cuantitativa Continua   |
+| concavity_mean         | Cuantitativa Continua   |
+| concave points_mean    | Cuantitativa Continua   |
+| symmetry_mean          | Cuantitativa Continua   |
+| fractal_dimension_mean | Cuantitativa Continua   |
+| radius_se              | Cuantitativa Continua   |
+| texture_se             | Cuantitativa Continua   |
+| perimeter_se           | Cuantitativa Continua   |
+| area_se                | Cuantitativa Continua   |
+| smoothness_se          | Cuantitativa Continua   |
+| compactness_se         | Cuantitativa Continua   |
+| concavity_se           | Cuantitativa Continua   |
+| concave points_se      | Cuantitativa Continua   |
+| symmetry_se            | Cuantitativa Continua   |
+| fractal_dimension_se   | Cuantitativa Continua   |
+| radius_worst           | Cuantitativa Continua   |
+| texture_worst          | Cuantitativa Continua   |
+| perimeter_worst        | Cuantitativa Continua   |
+| area_worst             | Cuantitativa Continua   |
+| smoothness_worst       | Cuantitativa Continua   |
+| compactness_worst      | Cuantitativa Continua   |
+| concavity_worst        | Cuantitativa Continua   |
+| concave points_worst   | Cuantitativa Continua   |
+| symmetry_worst         | Cuantitativa Continua   |
+| fractal_dimension_worst| Cuantitativa Continua   |
