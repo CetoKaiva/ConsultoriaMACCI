@@ -111,3 +111,14 @@ Posteriormente, se analizó una comparación general entre los tumores Benignos 
 
 ![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/1d7db661-d961-4eb6-95ed-7b9e8d803ba1)
 
+
+De la tabla anterior, fue posible analizar que los valores promedio (media) cuando el diagnóstico es maligno, son en casi todos los indicadores son mayores que los diagnosticados como benigno, excepto en “Fractal_Dimension_mean” donde son prácticamente iguales.
+Realizando un análisis entre el diagnóstico segmentado por resultado (M / B) y algunos de sus características se encuentra:
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/ba0447ab-3d30-4e7f-983e-f98caf62bc23)
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/c005c2f0-682c-4c64-938b-1fc371205d7a)
+
+
+
+
+
