@@ -50,7 +50,7 @@ C.	Elección y Entrenamiento del Modelo
 ## CONCLUSIONES
 
 
-PARTE 1: ANÁLISIS EXPLORATORIO
+# PARTE 1: ANÁLISIS EXPLORATORIO
 
 | Nombre                 | Tipo de Variable        |
 |------------------------|-------------------------|
@@ -150,4 +150,82 @@ En base al problema de multicolinealidad que presenta, con el objetivo de elimin
 
 ![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/a9331c85-eff4-46cb-b060-dc3991624cba)
 
+
+
+# PARTE 2: MODELO PREDICTIVO
+
+## A.División de los datos:
+
+El primer paso ahora la separación de datos , el cual se divide en 2 partes :
+1.Separación de datos entre variables predictoras de los cuales el algoritmo aprenderá y la variable a predecir que seria el resultado B o M
+2.Separación de los datos entre datos de entrenamiento y test, en este caso se considera un 70% de los datos para el entrenamiento del modelo y un 30% para la posterior validación del modelo, en este proceso la selección de los datos es completamente aleatoria y evita sesgos. 
+
+
+## B.Propuesta de Modelo
+
+Se consideraron 3 modelos a evaluar cual de ellos cumple con los mejores indicadores para ser elegido el modelo que se utilizara como predictor de nuevas muestras como B o M, que son : Regresión logística, SVM y Ramdom Forest tal y como lo muestra la imagen x
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/31c4d292-2105-4485-ab09-5af1b20d70be)
+
+Elección de métricas de rendimiento para evaluar los modelos:
+- Exactitud(Accuracy) = Con qué frecuencia el modelo clasifica correctamente
+- Precisión = Precisión del modelo a la hora de clasificar casos Malignos
+- Sensibilidad(Recall) = Cuan sensible es el clasificador para detectar instancias Malignas
+
+
+## Regresión Logística
+
+Realizado los análisis, se procede a definir un modelo de regresión que se adecue a nuestros datos, uno de ellos es el de regresión logística.
+Este es un modelo el cual utiliza un método estadístico supervisado para predecir clases binarias, en este caso, si el cáncer es Benigno (B) o Maligno (M), cuyo resultado es de naturaleza dicotómica. Si se cumplen los supuestos y se logra convergencia, el método de predicción mediante regresión logística resulta uno de los más robusto para este tipo de casos.
+Junto con lo anterior, para proponer un modelo de Regresión Logística es necesario tener en cuenta las siguientes consideraciones, y su cumplimiento, para la implementación del Modelo:
+- La Variable objetivo (variable a predecir) debe ser dicotómica.
+- Los predictores deben ser independientes.
+- Para tener un modelo más estable los predictores deben tener una distribución normal.
+- No existencia de multicolinealidad, ya que puede llevar a predicciones sesgadas. 
+- Verificación de la normalidad multivariante.
+
+El modelo ajustado mediante una regresión logística posee una exactitud del 97,66%, una precisión del 98,48% y una sensibilidad del 95,59% con las siguientes métricas obtenidas a partir de su respectiva matriz de confusión, de dicha matriz podemos concluir que :
+- 102 muestras fueron catalogadas como Benignas y efectivamente lo eran, mientras que 3 muestras Benignas fueron catalogadas como Malignas.
+- 65 muestras fueron catalogadas como malignas y efectivamente lo eran, mientras que una muestra que era maligna fue catalogada como beningna
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/c9c9ae72-87d2-4811-b12d-320c331014b5)
+
+## SVM
+SVM funciona correlacionando datos a un espacio de características de grandes dimensiones de forma que los puntos de datos se puedan categorizar, incluso si los datos no se puedan separar linealmente de otro modo.
+Se detecta un separador entre las categorías y los datos se transforman de forma que el separador se puede extraer como un hiperplano. Tras ello, las características de los nuevos datos se pueden utilizar para predecir el grupo al que pertenece el nuevo registro.
+
+Este modelo presentó una exactitud del 96,49%%, una precisión del 95,59% y una sensibilidad del 95,59%  con las siguientes métricas obtenidas a partir de su respectiva matriz de confusión.
+- 100 muestras fueron catalogadas como Benignas y efectivamente lo eran, mientras que 3 muestras Benignas fueron catalogadas como Malignas.
+- 65 muestras fueron catalogadas como malignas y efectivamente lo eran, mientras que 3 muestras que eran malignas fue catalogada como beningna
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/11f72bfe-f87e-42ce-af02-c3e0e7aaecc2)
+
+
+## Random Forest
+Random Forest es un modelo a Machine learning que tiene una capacidad de generalización ata para ciertos tipos de casos. Estos se basan en tener varios árboles de decisión, la cual aprendiendo los errores de otros árboles es que el algoritmo aprende de mejor manera. Para mejorar mucho más la capacidad de generalización de los árboles de decisión, debemos combinar varios árboles. 
+
+Este modelo presentó una exactitud del 94,15%%, una precisión del 95,31% y una sensibilidad del 98,71% con las siguientes métricas obtenidas a partir de su respectiva matriz de confusión.
+- 100 muestras fueron catalogadas como Benignas y efectivamente lo eran, mientras que 7 muestras Benignas fueron catalogadas como Malignas.
+- 61 muestras fueron catalogadas como malignas y efectivamente lo eran, mientras
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/8e3e3994-d4dc-41c7-80e8-9227caa9b6ee)
+
+
+
+## C.Elección y Entrenamiento del Modelo
+
+Teniendo en cuenta los 3 modelos que se evaluaron y los resultados que se identificaron anteriormente se opta por el de regresión logística, el cual en conjunto arroja mejores resultados de los otros 2 como se puede observar en la siguiente tabla:
+
+
+| Modelo             | Exactitud | Precisión | Sensibilidad |
+|--------------------|-----------|-----------|--------------|
+| Regresion logistica| 97.66%    | 98.48%    | 95.59%       | 
+| Random Forest      | 94.15%    | 95.31%    | 98.71%       |
+| SVM                | 96.49     | 95.59%    | 95.59%       |
+
+
+
+# CONCLUSIONES
+
+Se entrega con éxito el modelo de predicción de resultados de biopsias para determinar si es Benigno o Maligno, dicho modelo inicia con la limpieza de los datos que serán utilizados para luego analizar los datos en búsqueda de patrones que nos entregaran relaciones entre las variables mas relevantes para ser usadas en el entrenamiento de nuestros modelos elegidos, los cuales fueron : Regresión logística , SVM y Random Forest, de los cuales el de regresión logística fue el que obtuvo mejores resultados en 2 de los 3 métricas de rendimiento mas acordes con el caso, las mismas entregan un 97.66 % de exactitud al momento de clasificar un resultado, además de un 95.59% de sensibilidad, lo cual nos da mayor certeza de no evaluar de menara errada a personas que efectivamente tienen un tumor Maligno 
 
