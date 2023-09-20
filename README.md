@@ -52,8 +52,8 @@ C.	Elección y Entrenamiento del Modelo
 
 PARTE 1: ANÁLISIS EXPLORATORIO
 
-| Nombre    | Edad | Ciudad    |
-|-----------|------|-----------|
-| Juan      | 25   | Madrid    |
-| María     | 30   | Barcelona |
-| Pedro     | 28   | Valencia  |
+| Nombre Columna    | Tipo Variable | 
+|-----------|------|
+| Juan      | 25   |
+| María     | 30   |
+| Pedro     | 28   |
