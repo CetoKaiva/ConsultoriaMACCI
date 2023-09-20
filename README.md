@@ -126,4 +126,14 @@ A continuación, se hace una comparativa de histogramas para las diferentes vari
 
 ![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/13e1da9b-f2de-424c-9ef1-cae074ceee00)
 
+De los histogramas es posible inferir:
+- En su mayoría, las distribuciones son asimétricas a la derecha, por lo que presenta una curtosis mayor hacia la derecha, reflejando una mayor concentración de datos con respecto a la media. 
+- La asimetría nos indica que tanta variabilidad presentan los datos.
+
+
+## D.Correlaciones entre variables
+A partir de los datos también se busca ver qué variables pueden explicar mejor el resultado del diagnóstico, es por esto que se hace un análisis de correlación con respecto a las variables del dataset. 
+Para poder ilustrar la correlación se presenta el siguiente mapa de calor, donde la diagonal siempre presenta el valor de “1” (correspondiente al 100%) ya que evalúa la variable con sí misma, obteniendo como resultado la relación entre variables:
+
+![image](https://github.com/CetoKaiva/ConsultoriaMACCI/assets/130872798/d440752b-263b-4d28-a703-b8c57e62f77f)
 
