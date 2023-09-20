@@ -30,16 +30,22 @@ Cada muestra posee una identificación (“ID”), el diagnóstico (“diagnosis
 
 PARTE 1: ANÁLISIS EXPLORATORIO
 A.	Limpieza Base de Datos
+
 B.	Descripción de los Datos
+
 C.	Análisis Gráfico (Univariables)
+
 D.	Correlaciones entre variables
 
 PARTE 2: MODELO PREDICTIVO
 A.	División de los datos
+
 B.	Propuesta de Modelo
+
   - Regresión Logística
   - SVM
   - Random Forest
+  - 
 C.	Elección y Entrenamiento del Modelo
 
 CONCLUSIONES
