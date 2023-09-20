@@ -28,7 +28,7 @@ Cada muestra posee una identificación (“ID”), el diagnóstico (“diagnosis
 
 10. Fractal dimension: "Paradoja de línea de Costa" 
 
-PARTE 1: ANÁLISIS EXPLORATORIO
+## PARTE 1: ANÁLISIS EXPLORATORIO
 A.	Limpieza Base de Datos
 
 B.	Descripción de los Datos
@@ -37,7 +37,7 @@ C.	Análisis Gráfico (Univariables)
 
 D.	Correlaciones entre variables
 
-PARTE 2: MODELO PREDICTIVO
+## PARTE 2: MODELO PREDICTIVO
 A.	División de los datos
 
 B.	Propuesta de Modelo
@@ -47,7 +47,7 @@ B.	Propuesta de Modelo
   - Random Forest
 C.	Elección y Entrenamiento del Modelo
 
-CONCLUSIONES
+## CONCLUSIONES
 
 
 
