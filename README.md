@@ -8,25 +8,25 @@ Cada muestra posee una identificación (“ID”), el diagnóstico (“diagnosis
 1: “Mean”, 2:” Se”, 3: “Worst”. De estas se entregan la siguiente información de cada una:
 
 
-1.Radius: media de las distancias desde el centro hacia puntos del perímetro.
+1. Radius: media de las distancias desde el centro hacia puntos del perímetro.
 
-2.Texture: desviación estándar de las intensidades en escala de grises.
+2. Texture: desviación estándar de las intensidades en escala de grises.
 
-3.Perimeter: contorno de biopsia.
+3. Perimeter: contorno de biopsia.
 
-4.Area: superficie de la biopsia.
+4. Area: superficie de la biopsia.
 
-5.Smoothness: variación local de largo de los radios.
+5. Smoothness: variación local de largo de los radios.
 
-6.Compactness:  / área 
+6. Compactness:  / área 
 
-7.Concavity: severidad de secciones cóncavas en la delineación.
+7. Concavity: severidad de secciones cóncavas en la delineación.
 
-8.Concave points: número de secciones cóncavas en la delineación.
+8. Concave points: número de secciones cóncavas en la delineación.
 
-9.Symmetry: simetría de la biopsia. 
+9. Symmetry: simetría de la biopsia. 
 
-10.Fractal dimension: "Paradoja de línea de Costa" 
+10. Fractal dimension: "Paradoja de línea de Costa" 
 
 PARTE 1: ANÁLISIS EXPLORATORIO
 A.	Limpieza Base de Datos
