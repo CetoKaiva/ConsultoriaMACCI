@@ -9,7 +9,9 @@ Cada muestra posee una identificación (“ID”), el diagnóstico (“diagnosis
 
 
 1.Radius: media de las distancias desde el centro hacia puntos del perímetro.
+
 2.Texture: desviación estándar de las intensidades en escala de grises.
+
 3.Perimeter: contorno de biopsia.
 4.Area: superficie de la biopsia.
 5.Smoothness: variación local de largo de los radios.
